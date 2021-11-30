@@ -11,9 +11,18 @@
     <meta charset="UTF-8">
     <form action="https://ptsv2.com/t/smx2m08/post" method="post">
         <!-- Nombre -->
-        Escribe tu nombre:
-        <input type="text" size="23" name="nombre" value="" />
-        <input type="hidden" name="nombre_secreto" value="nombre secreto" />
+        <fieldset style= "width:50%">
+            <legend>Datos personales</legend>
+            Nombre <br/>
+            <input type="text" size="23" name="nombre" value="" />
+            <input type="hidden" name="nombre_secreto" value="nombre secreto" />
+            <br/>
+            Apellidos <br/>
+            <input type="text" name="apellidos" value="" />
+            <br/>
+            DNI <br/>
+            <input type="text" name="dni" value="" size="10" maxlength="9" />
+        </fieldset>
 
         <br/>
         <br/>
